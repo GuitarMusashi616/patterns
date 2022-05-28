@@ -1,5 +1,8 @@
 local recipes = {}
 
+recipes["minecraft:comparator"] = {1,"minecraft:stone",{7,8,9},"minecraft:redstone_torch",{6,4,2},"minecraft:quartz",{5}}
+recipes["minecraft:redstone_torch"] = {1,"minecraft:redstone",{1},"minecraft:stick",{4}}
+recipes["minecraft:cobblestone_slab"] = {6,"minecraft:cobblestone",{1,2,3}}
 recipes["redstonepen:relay"] = {1,"minecraft:redstone_torch",{2},"minecraft:cobblestone_slab",{1,4},"minecraft:redstone",{5}}
 recipes["rftoolscontrol:ram_chip"] = {1,"redstonepen:relay",{1,2,3,9,7,8},"immersiveengineering:circuit_board",{5}}
 recipes["immersiveengineering:wirecoil_redstone"] = {4,"minecraft:redstone",{6,4},"immersiveengineering:wire_aluminum",{8,2},"minecraft:stick",{5}}
