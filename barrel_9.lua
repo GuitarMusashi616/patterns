@@ -3,6 +3,7 @@ local recipes = {}
 local mc = "minecraft:"
 local th = "thermal:"
 local ee = "emendatusenigmatica:"
+local at = "atum:"
 
 local dusters = {
     "iron",
@@ -28,5 +29,6 @@ recipes[th.."white_rockwool"] = {1, th.."slag", 1}
 recipes[mc.."stone"] = {1, mc.."cobblestone", 1}
 recipes[mc.."smooth_stone"] = {1, mc.."stone", 1}
 recipes[mc.."charcoal"] = {1, mc.."oak_log", 1}
+recipes[at.."ceramic_white"] = {1, at.."marl", 1}
 
 return recipes
