@@ -1,5 +1,7 @@
 local recipes = {}
 
+recipes["redstonepen:relay"] = {1,"minecraft:redstone_torch",{2},"minecraft:cobblestone_slab",{1,4},"minecraft:redstone",{5}}
+recipes["rftoolscontrol:ram_chip"] = {1,"redstonepen:relay",{1,2,3,9,7,8},"immersiveengineering:circuit_board",{5}}
 recipes["immersiveengineering:wirecoil_redstone"] = {4,"minecraft:redstone",{6,4},"immersiveengineering:wire_aluminum",{8,2},"minecraft:stick",{5}}
 recipes["computercraft:cable"] = {8,"industrialforegoing:plastic",{6,8,2,4},"immersiveengineering:wirecoil_redstone",{5}}
 recipes["pneumaticcraft:thermal_lagging"] = {1,"minecraft:black_stained_glass_pane",{1,2,3,7,8,9},"thermal:gray_rockwool",{4,5,6}}
