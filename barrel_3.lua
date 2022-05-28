@@ -1,5 +1,7 @@
 local recipes = {}
 
+recipes["immersiveengineering:wirecoil_redstone"] = {4,"minecraft:redstone",{6,4},"immersiveengineering:wire_aluminum",{8,2},"minecraft:stick",{5}}
+recipes["computercraft:cable"] = {8,"industrialforegoing:plastic",{6,8,2,4},"immersiveengineering:wirecoil_redstone",{5}}
 recipes["pneumaticcraft:thermal_lagging"] = {1,"minecraft:black_stained_glass_pane",{1,2,3,7,8,9},"thermal:gray_rockwool",{4,5,6}}
 recipes["minecraft:black_stained_glass_pane"] = {8,"minecraft:glass_pane",{1,2,3,4,6,7,8,9},"minecraft:black_dye",{5}}
 recipes["minecraft:gray_dye"] = {2,"minecraft:black_dye",{1},"minecraft:white_dye",{2}}
