@@ -33,5 +33,6 @@ end
 
 recipes[rs.."machine_casing"] = {2, th.."machine_frame", 1, ei.."pewter_ingot", 4, rs.."quartz_enriched_iron", 4, tc.."seared_brick", 4}
 recipes[pn.."ingot_iron_compressed"] = {4, ee.."steel_ingot", 2, th.."tar", 2, mc.."obsidian", 1}
+recipes[pn.."etching_acid_bucket"] = {1, mc.."gunpowder", 2, pn.."plastic_bucket", 1, mc.."rotten_flesh", 2, mc.."spider_eye", 2}
 
 return recipes
