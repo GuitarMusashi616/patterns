@@ -1,6 +1,9 @@
 local recipes = {}
 
-
+recipes["pneumaticcraft:network_data_storage"] = {1,"minecraft:gray_dye",{1,3,7,9},"pneumaticcraft:plastic",{2,4,6,8},"minecraft:chest",{5}}    
+recipes["pneumaticcraft:network_io_port"] = {1,"minecraft:cyan_dye",{1,3,7,9},"pneumaticcraft:capacitor",{2,4,6,8},"minecraft:chest",{5}}       
+recipes["pneumaticcraft:gps_tool"] = {1,"minecraft:diamond",{8},"pneumaticcraft:plastic",{6,7,4,9},"minecraft:glass_pane",{5},"minecraft:redstone_torch",{2}}
+recipes["pneumaticcraft:remote"] = {1,"pneumaticcraft:transistor",{6,7,4,9},"pneumaticcraft:network_io_port",{2},"pneumaticcraft:network_data_storage",{8},"pneumaticcraft:gps_tool",{5}}
 recipes["mekanism:cardboard_box"] = {1,"emendatusenigmatica:wood_dust",{1,2,4,5}}
 recipes["kubejs:basic_memory_package"] = {1,"mekanism:cardboard_box",{7},"rftoolscontrol:ram_chip",{1,2,3,4,5,6},"pneumaticcraft:unassembled_pcb",{8}}
 recipes["immersiveengineering:insulating_glass"] = {2,"minecraft:green_dye",{5},"minecraft:glass",{8,2},"emendatusenigmatica:iron_dust",{6,4}}  
