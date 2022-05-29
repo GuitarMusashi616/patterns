@@ -10,5 +10,6 @@ recipes[pn.."unassembled_pcb"] = {1, pn.."empty_pcb", 1}
 recipes[pn.."advanced_pressure_tube"] = {8, pn.."compressed_iron_block", 1}
 recipes[rf.."machine_frame"] = {1, kjs.."rough_machine_frame", 1}
 recipes[kjs.."rough_machine_frame_top"] = {1, th.."machine_frame", 2}
+recipes[pn.."unassembled_pcb"] = {1, pn.."empty_pcb", 1}
 
 return recipes
