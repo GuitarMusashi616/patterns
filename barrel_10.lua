@@ -44,4 +44,6 @@ recipes[ee.."potassium_nitrate_gem"] = {2, ee.."potassium_nitrate_chunk", 1}
 recipes[ee.."arcane_gem"] = {2, ee.."arcane_chunk", 1}
 recipes[ee.."dimensional_gem"] = {6, ee.."dimensional_chunk", 1}
 
+recipes[ee.."wood_dust"] = {8, mc.."oak_log", 1}
+
 return recipes

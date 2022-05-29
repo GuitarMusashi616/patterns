@@ -1,5 +1,16 @@
 local recipes = {}
 
+
+recipes["mekanism:cardboard_box"] = {1,"emendatusenigmatica:wood_dust",{1,2,4,5}}
+recipes["kubejs:basic_memory_package"] = {1,"mekanism:cardboard_box",{7},"rftoolscontrol:ram_chip",{1,2,3,4,5,6},"pneumaticcraft:unassembled_pcb",{8}}
+recipes["immersiveengineering:insulating_glass"] = {2,"minecraft:green_dye",{5},"minecraft:glass",{8,2},"emendatusenigmatica:iron_dust",{6,4}}  
+recipes["pneumaticcraft:reinforced_brick_slab"] = {6,"pneumaticcraft:reinforced_bricks",{1,2,3}}
+recipes["pneumaticcraft:reinforced_brick_wall"] = {6,"pneumaticcraft:reinforced_bricks",{1,2,3,4,5,6}}
+recipes["pneumaticcraft:etching_tank"] = {1,"minecraft:glass_pane",{2},"minecraft:obsidian",{1,3},"pneumaticcraft:small_tank",{5},"pneumaticcraft:reinforced_brick_slab",{7,8,9},"pneumaticcraft:reinforced_brick_wall",{4,6}}
+recipes["glassential:glass_dark"] = {8,"minecraft:glass",{1,2,3,4,6,7,8,9},"minecraft:coal",{5}}
+recipes["architects_palette:abyssaline_lamp"] = {8,"minecraft:obsidian",{1,3,7,9},"minecraft:prismarine_shard",{4,6},"minecraft:prismarine_crystals",{2,5,8}}
+recipes["pneumaticcraft:uv_light_box"] = {1,"pneumaticcraft:pressure_tube",{6},"glassential:glass_dark",{4},"pneumaticcraft:reinforced_stone_slab",{7,8,9},"architects_palette:abyssaline_lamp",{1,2,3},"pneumaticcraft:pcb_blueprint",{5}}
+recipes["thermal:machine_speed_augment"] = {1,"emendatusenigmatica:lead_gear",{2,8},"thermal:rf_coil",{5},"emendatusenigmatica:electrum_plate",{6,4}}
 recipes["minecraft:comparator"] = {1,"minecraft:stone",{7,8,9},"minecraft:redstone_torch",{6,4,2},"minecraft:quartz",{5}}
 recipes["minecraft:redstone_torch"] = {1,"minecraft:redstone",{1},"minecraft:stick",{4}}
 recipes["minecraft:cobblestone_slab"] = {6,"minecraft:cobblestone",{1,2,3}}
